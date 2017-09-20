@@ -26,7 +26,6 @@ p {
 
 .centered {
     text-align: center;
-    width: 100%;
 }
 
 /* Links */
@@ -309,3 +308,4 @@ body {
   -o-animation-name: fadeInUp;
   animation-name: fadeInUp;
   }
+
