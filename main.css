@@ -309,3 +309,4 @@ body {
   animation-name: fadeInUp;
   }
 
+$("body").responsiveText();
