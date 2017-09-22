@@ -65,6 +65,17 @@ a:after {
   padding: 0;
 }
 
+/*.navbar {
+    position: fixed;
+    list-style: none;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    height:40px;
+    margin-bottom: -20px;
+}
+*/
+
 /*---------------------------------------------------
   SECTION WRAPS
 ---------------------------------------------------*/
@@ -72,13 +83,14 @@ a:after {
 /* Header Wrap */
 .header {
   background: #1CBCAD;
-  background: url(../images/header-bg.jpg) no-repeat center top;
+  background: url(./images/header-bg.jpg) no-repeat center top;
   padding-top:140px;
   text-align:center;
   background-attachment: relative;
   background-position: center center;
   min-height: 500px;
   width: 100%;
+
   
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
@@ -312,3 +324,4 @@ body {
 @media screen and (max-width: 1000px) and (min-width: 700px) {
    font-size: 2px;
 }
+
