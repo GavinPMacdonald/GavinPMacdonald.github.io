@@ -138,10 +138,13 @@ a:after {
   vertical-align: middle;
 }
 
+
+/*About me Pic*/
 #pic {
-  display: inline;
+  border-radius: 50%;
+  width: 275px;
+  height: 275px;
   float: right;
-  margin-right: 5px;
   margin-top: 25px;
 
 }
