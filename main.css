@@ -138,7 +138,7 @@ a:after {
   vertical-align: middle;
 }
 
-.about img {
+#pic {
   display: inline;
   float: right;
   margin-right: 5px;
