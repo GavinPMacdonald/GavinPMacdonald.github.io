@@ -142,12 +142,13 @@ a:after {
 /*About me Pic*/
 #pic {
   border-radius: 50%;
-  width: 275px;
-  height: 275px;
-  float: right;
-  margin-top: 25px;
-
+  width: 100%;
+  height: auto;
+/*  float: right;*/
+  margin: 0 auto;
+  max-width: 400px;
 }
+
 
 .footer {
   background: #2f2f2f;
@@ -331,9 +332,4 @@ body {
   animation-name: fadeInUp;
   }
 
-/*$("body").responsiveText();*/
-
-@media screen and (max-width: 1000px) and (min-width: 700px) {
-   font-size: 2px;
-}
 
